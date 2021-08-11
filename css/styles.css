@@ -80,9 +80,9 @@
   width: 3000px;
   height: 400px;
   background-attachment: fixed;
-  background-size:contain;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
-  background-position: 100px 0;
+  background-position: 0px 0;
 }
 
 body {
