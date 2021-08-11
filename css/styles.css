@@ -143,6 +143,11 @@
 	width:30px;
 	cursor:pointer;
 }
+
+#surglass{
+	width: 100px;
+	margin-left:10px;
+}
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
