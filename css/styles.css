@@ -148,6 +148,12 @@
 	width: 100px;
 	margin-left:10px;
 }
+
+#blog{
+	margin-top:20px;
+	width:100%;
+	height:60%;
+}
 body {
   margin: 0;
   font-family: var(--bs-body-font-family);
