@@ -11474,7 +11474,7 @@ p.lead {
   background-color: #bd5d38;
 }
 
-.social-iconed {
+.social-iconeds .social-iconed {
   margin-top:0%;
   display: inline-flex;
   align-items: center;
@@ -11487,9 +11487,14 @@ p.lead {
   font-size: 1rem;
   margin-right: 1.5rem;
 }
-.social-iconed:last-child {
+.social-iconeds .social-iconed:last-child {
   margin-right: 0;
 }
+
+@media all and (max-width: 479px) {
+  .social-iconeds {display:none;}
+}
+
 .social-iconed:hover {
   background-color: #bd5d38;
 }
