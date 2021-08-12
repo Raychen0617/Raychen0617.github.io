@@ -11541,6 +11541,7 @@ p.lead {
 
 @media all and (max-width: 600px) {
   .social-iconeds {display:none;}
+  .container{visibility: hidden;}
 }
 
 .social-iconed:hover {
@@ -11560,6 +11561,7 @@ section.resume-section {
   padding-bottom: 5rem;
   max-width: 75rem;
 }
+
 section.resume-section .resume-section-content {
   width: 100%;
 }
@@ -11570,6 +11572,7 @@ section.resume-section .resume-section-content {
   }
 }
 @media (min-width: 992px) {
+
   section.resume-section {
     padding-left: 3rem;
     padding-right: 3rem;
