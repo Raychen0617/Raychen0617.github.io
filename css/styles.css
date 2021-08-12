@@ -11491,7 +11491,7 @@ p.lead {
   margin-right: 0;
 }
 
-@media all and (max-width: 479px) {
+@media all and (max-width: 600px) {
   .social-iconeds {display:none;}
 }
 
