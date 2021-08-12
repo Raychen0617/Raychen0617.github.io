@@ -142,6 +142,7 @@
 #icon{
 	width:30px;
 	cursor:pointer;
+  margin-bottom: 5px;
 }
 
 #surglass{
@@ -11431,6 +11432,7 @@ p.lead {
     padding: 0.5rem;
   }
   #sideNav .navbar-brand .img-profile {
+    margin-top: 0px;
     max-width: 10rem;
     max-height: 10rem;
     border: 0.5rem solid rgba(255, 255, 255, 0.2);
@@ -11469,6 +11471,26 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
+  background-color: #bd5d38;
+}
+
+.social-iconed {
+  margin-top:0%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  width: 2.5rem;
+  background-color: var(--bs-primary-rgb);
+  color: var(--bs-white);
+  border-radius: 100%;
+  font-size: 1rem;
+  margin-right: 1.5rem;
+}
+.social-iconed:last-child {
+  margin-right: 0;
+}
+.social-iconed:hover {
   background-color: #bd5d38;
 }
 
