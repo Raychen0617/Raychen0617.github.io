@@ -264,7 +264,7 @@ input[type=submit]:hover {
   width: 70%;
 }
 .bar .progress-line.css span{
-  width: 20%;
+  width: 80%;
 }
 .bar .progress-line.jquery span{
   width: 40%;
