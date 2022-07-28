@@ -150,6 +150,11 @@
 	margin-left:10px;
 }
 
+#mobiledrive{
+	width: 300px;
+	margin-left:10px;
+}
+
 #blog{
 	margin-top:20px;
 	width:100%;
@@ -313,7 +318,7 @@ input[type=submit]:hover {
   content: "70%";
 }
 .progress-line.css span::after{
-  content: "20%";
+  content: "80%";
 }
 .progress-line.jquery span::after{
   content: "40%";
