@@ -19,13 +19,13 @@ const ProjectCard = ({ project }: Props) => {
                 </h3>
                 <p className="text-gray-600 font-poppins mt-2">
                     {project.descript1 && (
-                        <li className="mt-2"> {project.descript1}</li>
+                        <li className="mt-2 whitespace-nowrap"> {project.descript1}</li>
                     )}
                     {project.descript2 && (
-                        <li className="mt-2"> {project.descript2}</li>
+                        <li className="mt-2 whitespace-nowrap"> {project.descript2}</li>
                     )}
                     {project.descript3 && (
-                        <li className="mt-2 font-medium">
+                        <li className="mt-2 font-medium whitespace-nowrap">
                             {" "}
                             {project.descript3}
                         </li>

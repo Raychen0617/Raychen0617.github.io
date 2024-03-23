@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import me from "../assets/me.jpeg";
-import { GithubIcon, LinkedinIcon, ExternalLink } from "lucide-react";
+import { GithubIcon, LinkedinIcon } from "lucide-react";
 import CV from '../assets/TzuJui_Chen_resume.pdf'
 const HomePage = () => {
     return (

@@ -5,6 +5,7 @@ import { Separator } from "@radix-ui/react-separator";
 import QualificationPage from "@/pages/QualificationPage";
 import ContactPage from "@/pages/ContactPage";
 import PublicationPage from "@/pages/PublicationPage";
+import SkillPage from "@/pages/SkillPage";
 
 
 const Layout = () =>{
@@ -18,12 +19,15 @@ const Layout = () =>{
             <Separator className="my-20"/>
             <QualificationPage/>
             <Separator className="my-32"/>
+            <SkillPage/>
+            <Separator className="my-32"/>
             <ProjectPage/>
             <Separator className="my-32"/>
             <PublicationPage/>
             <Separator className="my-32"/>
             <ContactPage/>
             <Separator className="my-40"/>
+            
             {/* <div className="container mx-auto flex-1 my-10">{children}</div> */}
         </div>
     )
