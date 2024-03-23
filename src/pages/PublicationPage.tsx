@@ -1,12 +1,13 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
+import ICCV from '../assets/ICCV.jfif'
 
 const PublicationPage = () => {
     return (
         <div id="publication">
             <div className="flex flex-row items-center justify-center">
                 <img
-                    src="/src/assets/ICCV.jfif"
+                    src={ICCV}
                     className="ml-8 rounded-xl shadow-lg w-32 h-auto p-2"
                 />
                 <div className="ml-8 flex flex-col bg-white rounded-lg shadow-lg p-6 mr-4">

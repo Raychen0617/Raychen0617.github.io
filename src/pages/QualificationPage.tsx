@@ -6,7 +6,7 @@ const QualificationPage = () => {
     return (
         <div id="qualification" className="flex flex-row items-start justify-center">
             <EducationPage/>
-            <Separator className="mx-20"></Separator>
+            <Separator className="mx-12"></Separator>
             <WorkPage/>
         </div>
     )

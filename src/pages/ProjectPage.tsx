@@ -1,5 +1,10 @@
 import ProjectCard from "@/components/ProjectCard";
 import { Separator } from "@radix-ui/react-separator";
+import Hero from "../assets/hero.jpg";
+import Traveltale from "../assets/Traveltale.jfif"
+import CoachAI from "../assets/CoachAI.png"
+import Yolo from "../assets/yolov5.jpg"
+import Nerf from "../assets/Nerf.png"
 
 const ProjectComponent = () => {
     return (
@@ -9,7 +14,7 @@ const ProjectComponent = () => {
                     <ProjectCard
                         project={{
                             title: "Restaurant Ordering System App",
-                            imageUrl: "/src/assets/hero.jpg",
+                            imageUrl: Hero,
                             descript1:
                                 "A restaurant ordering website for both customers and owners",
                             descript2:
@@ -26,7 +31,7 @@ const ProjectComponent = () => {
                     <ProjectCard
                         project={{
                             title: "Travel Tales Journal Mobile App",
-                            imageUrl: "/src/assets/Traveltale.jfif",
+                            imageUrl: Traveltale,
                             descript1:
                                 "A journaling app incorporating multiple UI principle, such as perception, visual design",
                             descript2:
@@ -45,7 +50,7 @@ const ProjectComponent = () => {
                     <ProjectCard
                         project={{
                             title: "Badminton Coach AI",
-                            imageUrl: "/src/assets/CoachAI.png",
+                            imageUrl: CoachAI,
                             descript1:
                                 "Analyze badminton players’ poses and ball types",
                             descript2:
@@ -62,11 +67,11 @@ const ProjectComponent = () => {
                     <ProjectCard
                         project={{
                             title: "Yolov5 Optimization Pipeline",
-                            imageUrl: "/src/assets/yolov5.jpg",
+                            imageUrl: Yolo,
                             descript1:
                                 "Implement optimization techniques on YOLOv5",
                             descript2:
-                                "Improve over 5% mAP and reduce GPU runtime 10%",
+                                "Improve over 5% mAP and GPU runtime 10%",
                             descript3:
                                 "Skills: Pytorch, Tflite, Python",
                             linkUrl: "https://yolov5-optimization.readthedocs.io/en/latest/",
@@ -77,16 +82,16 @@ const ProjectComponent = () => {
                 <div className="w-1/2 h-1/2">
                     <ProjectCard
                         project={{
-                            title: "Neural Radiance Field Augmentation",
-                            imageUrl: "/src/assets/Nerf.png",
+                            title: "NERF Data Augmentation",
+                            imageUrl: Nerf,
                             descript1:
                                 "NERF creates 3D scenes from 2D images with DL",
                             descript2:
-                                "Modify and utilize NERF to achieve data augmentation",
+                                "Utilize NERF to achieve data augmentation",
                             descript3:
                                 "Skills: Pytorch, TensorFlow, Python",
-                            linkUrl: "",
-                            linkName: "",
+                            linkUrl: "https://github.com/bmild/nerf",
+                            linkName: "Nerf",
                         }}
                     />
                 </div>
