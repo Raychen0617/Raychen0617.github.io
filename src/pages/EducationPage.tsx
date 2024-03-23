@@ -4,7 +4,7 @@ import CKIcon from "../assets/CK.png"
 
 const EducationPage = () => {
     return (
-        <div id="education" className="pr-16 py-8 rounded-lg shadow-xl flex flex-col items-center justify-center">
+        <div id="education" className="pr-16 py-8 rounded-lg shadow-xl flex flex-col items-center justify-center ml-10">
             <ol className="relative border-s border-gray-200 dark:border-gray-700">
                 <li className="mt-[2px] mb-16 ms-6">
                     <span className="absolute flex items-center justify-center w-14 h-14 bg-blue-100 rounded-full -start-7 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
