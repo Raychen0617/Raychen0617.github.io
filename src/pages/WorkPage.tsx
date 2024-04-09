@@ -4,7 +4,7 @@ import BIOIcon from "../assets/BIO.jpg"
 
 const WorkComponent = () => {
     return (
-        <div id="work" className="pr-24 py-8 rounded-lg shadow-xl flex flex-col items-center justify-center">
+        <div id="work" className="pr-16 py-8 rounded-lg shadow-xl flex flex-col items-center justify-center ml-10">
             <ol className="relative border-s border-gray-200 dark:border-gray-700">
                 <li className="mb-16 ms-6">
                     <span className="absolute flex items-center justify-center w-14 h-14 bg-blue-100 rounded-full -start-7 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900">
