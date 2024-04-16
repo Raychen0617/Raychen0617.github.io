@@ -11,9 +11,9 @@ const ProjectCard = ({ project }: Props) => {
         <div className="flex flex-col items-center justify-center">
             <img
                 src={project.imageUrl}
-                className="border-4 border-gray-300 ml-8 rounded-full w-32 h-auto"
+                className="border-4 border-gray-300 rounded-full w-32 h-auto"
             />
-            <div className="text-sm ml-8 flex flex-col bg-white rounded-lg shadow-lg p-6 mr-4">
+            <div className="text-sm flex flex-col bg-white rounded-lg shadow-lg p-6 mr-4">
                 <h3 className="flex items-center mb-1 text-lg text-xl font-bold text-gray-900 dark:text-white font-poppins">
                     {project.title}
                 </h3>
@@ -34,11 +34,11 @@ const ProjectCard = ({ project }: Props) => {
                 {project.linkUrl ? (
                     <Button
                         asChild
-                        className="mt-6 max-w-[120px] rounded-2xl bg-gray-800 text-white font-semibold border-black border-2 hover:bg-gray-500 py-3"
+                        className="mt-6 max-w-[130px] rounded-2xl bg-gray-800 text-white font-semibold border-black border-2 hover:bg-gray-500 py-3"
                     >
                         <Link
                             to={project.linkUrl}
-                            className="inline-block px-14"
+                            className="inline-block px-18"
                         >
                             {project.linkName}
                         </Link>
