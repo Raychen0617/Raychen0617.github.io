@@ -13,7 +13,7 @@ const ProjectCard = ({ project }: Props) => {
                 src={project.imageUrl}
                 className="border-4 border-gray-300 rounded-full w-32 h-auto"
             />
-            <div className="text-sm flex flex-col bg-white rounded-lg shadow-lg p-6 mr-4">
+            <div className="text-sm flex flex-col bg-white px-12 rounded-lg shadow-lg p-6">
                 <h3 className="flex items-center mb-1 text-lg text-xl font-bold text-gray-900 dark:text-white font-poppins">
                     {project.title}
                 </h3>

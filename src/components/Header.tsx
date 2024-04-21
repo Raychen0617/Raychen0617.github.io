@@ -5,8 +5,8 @@ import MobileNav from "./MobileNav";
 const Header = () => {
     return (
         <div  className="opacity-100 bg-white flex flex-row items-center justify-between font-poppins py-6">
-            <Link to="home" smooth={true} duration={1500} offset={-200} className="hidden md:block ml-8 italic text-2xl text-gray-500">CHENTZJ</Link>
-            <Link to="home" smooth={true} duration={1500} offset={-300} className="md:hidden ml-4 italic text-2xl text-gray-500">CHENTZJ</Link>
+            <Link to="home" smooth={true} duration={1500} offset={-200} className="hidden md:block ml-8 italic text-2xl text-gray-700 hover:text-gray-500">CHENTZJ</Link>
+            <Link to="home" smooth={true} duration={1500} offset={-300} className="md:hidden ml-4 italic text-2xl text-gray-700 hover:text-gray-500">CHENTZJ</Link>
             <div className="md:hidden">
                 <MobileNav />
             </div>
